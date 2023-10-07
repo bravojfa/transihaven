@@ -16,10 +16,10 @@ body{
     background-color: #FDF4F5;
 }
 .image img{
-    width: 100px;
+    width: 80px;
 }
 .logo img{
-    width: 100px;
+    width: 80px;
 }
 .logo{
     display: flex;
@@ -149,9 +149,13 @@ a{
     padding: 20px;
     border-radius: 10px;
     display: grid;
-    margin: 20px;
+    width: 90%;
+    margin: auto;
     margin-top: 40px;
     gap: 10px;
+}
+.contact form label{
+    color: #93A1F1;
 }
 .contact form input, .contact form textarea{
     font-size: 16px;
@@ -160,6 +164,7 @@ a{
     color: #93A1F1;
     outline: none;
     padding: 10px;
+    width: 100%;
 }
 .contact form button{
     background-color: #93A1F1;
@@ -209,7 +214,7 @@ footer h3{
         margin-top: 20px;
         margin-left: 10px;
     }
-    .home1{
+    .home1 h1{
         text-align: center;
         font-size: 40px;
     }
@@ -219,14 +224,14 @@ footer h3{
     }
     .contact form{
         margin: auto;
-        margin-top: 25px;
         width: 90%;
+        margin-top: 25px;
     }
     .about p{
         width: 75%;
     }
     .home1 span{
         white-space: pre;
-        font-size: 50px;
+        font-size: 45px;
     }
 }
