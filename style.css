@@ -15,6 +15,9 @@ header{
 body{
     background-color: #FDF4F5;
 }
+main{
+    margin-top: 40px;
+}
 .image img{
     width: 80px;
 }
@@ -233,5 +236,11 @@ footer h3{
     .home1 span{
         white-space: pre;
         font-size: 45px;
+    }
+    main{
+        margin-top: 0px;
+    }
+    .logo{
+        padding: 20px 0px;
     }
 }
