@@ -113,6 +113,7 @@ a{
 }
 .download div img{
     width: 30px;
+    margin-right: 10px;
 }
 .download div:hover{
     background-color: #93A1F1;
@@ -206,10 +207,11 @@ footer h3{
         height: auto;
         margin: auto;
         margin-top: 20px;
+        margin-left: 10px;
     }
     .home1{
         text-align: center;
-        font-size: 30px;
+        font-size: 40px;
     }
     .download{
         display: grid;
@@ -218,6 +220,13 @@ footer h3{
     .contact form{
         margin: auto;
         margin-top: 25px;
-        width: 95%;
+        width: 90%;
+    }
+    .about p{
+        width: 75%;
+    }
+    .home1 span{
+        white-space: pre;
+        font-size: 50px;
     }
 }
