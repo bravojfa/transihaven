@@ -3,42 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact TransiHaven</title>
-    <link rel="stylesheet" href="contact.css">
+    <style>
+        @font-face{
+            font-family: Alice;
+            src: url("alice.ttf");
+            font-display: swap;
+        }
+        *{
+            box-sizing: border-box;
+            font-family: Alice;
+            padding: 0px;
+            margin: 0px;
+        }
+        html{
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            height: 100%;
+            display: grid;
+            align-items: center;
+            padding: 0em 1em 0em 1em;
+            margin: 0px;
+        }
+        h1{
+            text-align: center;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+        }
+        form{
+            display: grid;
+            padding: 1em;
+            box-shadow: 1px 1px 2px silver, -1px -1px 2px silver;
+            border-radius: 12px;
+            background: #63DDFF;
+            gap: 10px;
+        }
+        form input, form textarea{
+            padding: 10px;
+            color: #444445;
+            font-size: 16px;
+            background: #FAF9F6;
+            border-radius: 10px;
+            outline: none;
+            border: 2px solid #FAF9F6;
+        }
+        form button{
+            padding: 14px;
+            outline: none;
+            color: #444445;
+            text-transform: uppercase;
+            border-radius: 10px;
+            background: #FAF9F6;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="Tlogo.png" alt="">
-                <a class="title">TransiHaven</a>
-            </div>
-
-            <ul class="navbar-text">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </header>
-    <main>
-        <h1>CONTACT US</h1>
-        <form>
-            <label for="Email">Email:</label>
-            <input type="email" placeholder="youremail@gmail.com" required>
-            <label for="Email">Message:</label>
-            <textarea type="email" placeholder="Message" rows="10" required></textarea>
-            <button type="submit">SUBMIT</button>
-        </form>
-        <div class="socials">
-            <div class="links">
-                <a href="#">FACEBOOK <img src="facebook.png"></a>
-                <a href="#">INSTAGRAM <img src="instagram.png"></a>
-                <a href="#">GMAIL <img src="gmail.png"></a>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <h3>TransiHaven 2023</h3>
-    </footer>
+    <form action="https://formsubmit.co/oshiwaplay@gmail.com" method="post">
+        <h1>Contact Us</h1>
+        <label for="Name">Name:</label>
+        <input type="text" placeholder="John Doe" required="required">
+        <label for="Email">Email:</label>
+        <input type="email" placeholder="youremail@gmail.com" required="required">
+        <label for="Message">Message:</label>
+        <textarea placeholder="Message" rows="10" required="required"></textarea>
+        <input type="hidden" name="_captcha" value="false">
+        <button type="submit">SEND</button>
+    </form>
 </body>
 </html>
